@@ -1,1 +1,7 @@
-{"name":"Ultron"}
+{
+    "name": "Ultron",
+    "model": "qwen2.5:1.5b",
+    "speaking_style": "Short, direct and friendly. Never lecture.",
+    "max_history_messages": 35,
+    "max_steps": 6
+}

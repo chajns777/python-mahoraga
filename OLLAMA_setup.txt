@@ -1,0 +1,11 @@
+=== BASH ===
+
+pip install ollama
+
+ollama serve &
+
+curl http://localhost:11434/
+
+ollama pull qwen2.5:1.5b
+
+ollama run qwen2.5:1.5b "Hello!"
